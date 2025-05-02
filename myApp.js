@@ -4,7 +4,7 @@ const app = express();
 
 
 
-app.set("x-powered-by, false");
+helmet.hidePoweredBy()
 
 
 
