@@ -4,7 +4,7 @@ const app = express();
 
 
 
-helmet.hidePoweredBy()
+app.use(helmet.hidePoweredBy({ setTo: 'PHP 4.2.0'}));
 
 
 
