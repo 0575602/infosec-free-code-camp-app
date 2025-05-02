@@ -8,8 +8,9 @@ const app = express();
 
 
 
-helmet.hidePoweredBy()
-
+app.get('/', function(req, res){
+  res.send("hello world");
+});
 
 
 
